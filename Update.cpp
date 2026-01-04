@@ -4,7 +4,7 @@ using namespace std;
 void bookRoom(vector<Room>& hotel) {
     int rNo;
     bool found = false;
-    cout << "Enter Room Number to Book: "; cin >> rNo;
+    cout << "Enter Room Number you have to Book: "; cin >> rNo;
     for (auto &r : hotel) {
         if (r.roomNumber == rNo) {
             if (r.isBooked == 0) {
@@ -31,4 +31,5 @@ void vacateRoom(vector<Room>& hotel) {
         }
     }
     if (!found) cout << "\n[Error] Room not found!";
+
 }
