@@ -59,3 +59,8 @@ Purpose: To remove a room from the system permanently.
 
 Logic: It uses hotel.erase(). It searches for the index i of the room number you provided and removes that specific element from the vector.
 
+Coming soon: LOGIN SYSTEM 
+like Create id ,login id,
+if they have already account sigup
+THIS PROGRAME IS ADDED WITH HOTEL MANAGENMENT SYSTEM FOR JUST ADDED ROOM ,VIEW ROOM, SEARCH ALL ROOOM , CHECK IN AND CHECK OUT ROOM.
+
